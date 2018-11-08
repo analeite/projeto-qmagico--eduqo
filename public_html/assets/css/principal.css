@@ -1,0 +1,43 @@
+/* 
+    Created on : 08/11/2018, 19:34:41
+    Author     : Ana Beatriz Leite
+*/
+
+#menu {
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+  background: #FFFFFF;
+  z-index: 2;
+}
+
+li {
+    display: inline;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+#button{
+    margin-top: -8px;
+    margin-right: 50px;
+    float: right;
+}
+
+#config{
+    width: 100px;
+    height: 35px;
+    background-color: #F5F5F5;
+}
+
+#edit{
+    width: 55px;
+    height: 35px;
+    background-color: #20B2AA;
+/*    border: 1px solid red;*/
+}
