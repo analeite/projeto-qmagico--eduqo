@@ -110,28 +110,42 @@ p{
 
 .footer{
     position: fixed;
-    bottom: 2%;
-    right: -10%;
+    bottom: 3%;
+    left: 80%;
 }
 
 #heart{
     font-size: inherit;
     height: 20px;
     float: right;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
 }
 
 #balloon{
     font-size: inherit;
     height: 20px;
     float: right;
-    margin-right: -750px;
-    margin-top: 1px;
+    margin-right: -80px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
 }
 
 #pencil{
     font-size: inherit;
     height: 20px;
     float: right;
-    margin-right: -720px;
+    margin-right: -130px; 
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
 }
 
