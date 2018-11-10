@@ -92,12 +92,13 @@ body{
     margin-top: 70px;
     margin-bottom: 50px;
     width: 700px;
-    height: 3200px;
+    height: 100%;
     background: #FFFFFF;
-    padding-top: 50px;
+    padding: 50px;
+/*  padding-top: 50px;
     padding-right: 50px;
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;*/
 }
 
 h1{
