@@ -6,12 +6,12 @@
 .content{
     position: relative;
     margin: 0 auto;
-    height: 1350px;
-    width:  1350px;
+    height: 500px;
+    width: 700px;
 }
 
-@media (min-width: 1350px) {
-    .desktop {
+@media (max-width: 700px) {
+    .cell {
         display: none;
     }
 }
@@ -27,6 +27,7 @@
     background: #FFFFFF;
     z-index: 2;
     font-family: roboto;
+    font-size: 12px;
 }
 
 li {
@@ -44,24 +45,31 @@ body{
 }
 
 #config{
-    width: 110px;
-    height: 32px;
+    width: 49px;
+    height: 34px;
     background-color: #E8E8E8;
     border: 1px solid #CFCFCF;
-    font-family: proximanova-semibold;
     border-radius: 3px;
+}
 
+#gear{
+    width: 21px;
+    height: 21px;
+    padding: 4px;
 }
 
 #edit{
-    width: 60px;
-    height: 32px;
+    width: 49px;
+    height: 34px;
     background-color: #20B2AA;
     border: 1px solid #00688B;
-    font-family: proximanova-semibold;
-    color: #FFFFFF;
     border-radius: 3px;
+}
 
+#penc{
+    width: 21px;
+    height: 21px;
+    padding: 4px;
 }
 
 @font-face {
@@ -83,7 +91,6 @@ body{
     display: inline-block;
     font-size: inherit;
     height: 20px;
-    height: 25px;
     vertical-align: -.125em;
     margin-left: -10px;
 }
@@ -92,7 +99,7 @@ body{
     display: inline-block;
     font-size: inherit;
     height: 20px;
-    vertical-align: -8px;
+    vertical-align: 2px;
     padding-left: 10px;
 }
 
@@ -105,14 +112,14 @@ body{
 .box {
     margin-top: 70px;
     margin-bottom: 50px;
-    width: 700px;
+    width: 400px;
     height: 100%;
     background: #FFFFFF;
     padding: 50px;
-    /*  padding-top: 50px;
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 50px;*/
+/*  padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;*/
 }
 
 h1{
@@ -126,7 +133,7 @@ p{
 .footer{
     position: fixed;
     bottom: 3%;
-    left: 80%;
+    left: 60%;
 }
 
 #heart{
