@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 1350px) {
-    .desktop {
+    .principal {
         display: none;
     }
 }
